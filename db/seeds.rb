@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 100.times do
-  Song.create(title: Faker::Hipster.sentence(word_count: 3), artist: Faker::Name.name, year: rand(1950..2017) )
+  Song.create(title: Faker::Hipster.sentence(word_count: 3), artist: Faker::Name.name, year: rand(2010..2019) )
 end
